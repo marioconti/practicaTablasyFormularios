@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Formulario para mayor información</title>
+  </head>
+  <body>
+    <head>
+      <h1>Formulario de registro para mayor información</h1>
+    </head>
+    <main>
+      <section>
+        <form>
+          <p>
+            <label>Nombre completo</label><br />
+            <input
+              id="campoDeTexto"
+              type="text"
+              name="Nombre Completo"
+              placeholder="Ingrese su nombre completo aquí"
+              required
+            />
+          </p>
+
+          <p>
+            <label>Nombre de usuario</label><br />
+            <input
+              id="campoDeTexto"
+              type="text"
+              name="Nombre de usuario"
+              placeholder="Ingrese su nombre de usuario aquí"
+              required
+            />
+          </p>
+
+          <p>
+            <label>Contraseña</label><br />
+            <input
+              id="campoDeTexto"
+              type="password"
+              name="Contraseña"
+              placeholder="Ingrese una contraseña aquí"
+              required
+            />
+          </p>
+          <p>
+            <label>País</label><br />
+            <select name="País" id="">
+              <option value="Argentina">Argentina</option>
+              <option value="Brasil">Brasil</option>
+              <option value="Paraguay">Paraguay</option>
+              <option value="Uruguay">Uruguay</option>
+              <option value="Venezuela">Venezuela</option>
+            </select>
+          </p>
+          <p>
+            <label>Correo electrónico</label><br />
+            <input
+            id="campoDeTexto"
+              type="email"
+              name="Correo electrónico"
+              placeholder="example@example.com"
+            />
+          </p>
+          <p>
+            <label>Sexo</label><br />
+            <input type="radio" name="Sexo" />Masculino
+            <input type="radio" name="Sexo" />Femenino
+          </p>
+          <p>
+            <input type="checkbox" name="Condición" required /> Soy mayor de
+            edad
+          </p>
+          <button>Enviar</button>
+          <button type="reset>">Limpiar</button>
+          <a id="botonRetorno" href="index.html"
+            >Retorno a la página principal</a
+          >
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
